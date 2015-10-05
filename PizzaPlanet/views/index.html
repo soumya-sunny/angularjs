@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+
+
+	<title>Pizza world</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/ngDialog.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/ngDialog-theme-default.min.css">
+</head>
+<body>
+	<div class="container"ng-app="pizaPlanet" ng-controller="mainController">
+		<div class="circle">
+			<h1 class="center-align">
+				<span>Pizza</span>
+				<span>Planet</span>
+			</h1>
+		</div>
+		<h2>
+			<span>Specials for {{today}}</span>
+			<span class="right-align" ng-controller="cartController" ng-click="showCart()">Cart ({{cartCount}}) </span>
+		</h2>
+		<br><br>
+		<div ng-repeat="menu in menu">
+			<course course=menu></course>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../app/app.js"></script>
+	<script type="text/javascript" src="../app/controllers/MainController.js"></script>
+	<script type="text/javascript" src="../app/controllers/CartController.js"></script>
+	<script type="text/javascript" src="../app/directives/CourseDirective.js"></script>
+	<script type="text/javascript" src="../app/services/CartService.js"></script>
+	<script type="text/javascript" src="../assets/js/ngDialog.min.js"></script>
+</body>
+</html

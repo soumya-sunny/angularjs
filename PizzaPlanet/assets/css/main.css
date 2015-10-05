@@ -1,0 +1,65 @@
+body{
+	font-family: sans-serif;
+}
+.left-align{
+	float:left;
+}
+.right-align{
+	float:right;
+}
+.center-align{
+	text-align: center;
+}
+
+.container{
+	margin: 50px;
+	background: whitesmoke;
+	padding: 20px;
+	border-radius: 10px;
+}
+.circle{
+	background:  rgb(150, 3, 15);
+	border-radius: 100%;
+	width:140px;
+	height: 140px;
+	margin: 0 auto;
+	color: white;
+}
+.circle h1{
+	padding-top: 20%;
+}
+.itemList{
+	border: 4px solid white;
+	border-radius: 9px;
+	padding: 13px;
+	border-bottom: 0px
+}
+.itemList a{
+	color: rgb(150, 3, 15);
+	text-decoration: none;
+}
+.courseUl{
+	padding: 20px;
+	list-style: none;
+}
+.price{
+	font-size: 19px;
+	padding-right: 10px;
+}
+.addButton{
+	padding: 5px;
+	width: 80px;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: rgb(150, 3, 15);
+	color: white;
+	
+}
+li:last-child {
+	border-bottom: 4px solid white;
+}
+.description{
+	font-style: italic;
+	font-family: serif;
+	font-size: large;
+}

@@ -1,0 +1,13 @@
+<h3 class="subHeading">{{course.name|uppercase}}</h3>
+
+<hr>
+<ul class="courseUl">
+	<li class="itemList" ng-repeat="x in course.items">
+		<h3> 
+			<a href="#/{{x.name}}" >{{x.name}}</a>
+			<span class="right-align price">{{x.price|currency}}</span>
+		</h3>		
+		<span class="description">    {{ x.desc }}</span>
+		<button class="right-align addButton" ng-click="addToCart(x,$event)">Add</button>
+	</li>
+</ul> 
