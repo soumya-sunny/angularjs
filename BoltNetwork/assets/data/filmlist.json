@@ -1,0 +1,21 @@
+{"data":[
+{"name":"Life of Pi",
+			"img":"../assets/images/download.jpg",
+			"year":"2012",
+			"desc":"After deciding to sell their zoo in India and move to Canada, Santosh and Gita Patel board a freighter with their sons and a few remaining animals. Tragedy strikes when a terrible storm sinks the ship, leaving the Patels' teenage son, Pi (Suraj Sharma), as the only human survivor. However, Pi is not",
+			"link":"https://en.wikipedia.org/wiki/Life_of_Pi_(film)"
+			},
+		{"name":"Titanic",
+				"img":"../assets/images/download (1).jpg",
+"year":"1997",
+			"desc":"James Cameron's 'Titanic' is an epic, action-packed romance set against the ill-fated maiden voyage of the R.M.S. Titanic; the pride and joy of the White Star Line and, at the time, the largest moving object ever built. She was the most luxurious liner of her era -- the ship of dreams -- which ult… ",
+				"link":"https://en.wikipedia.org/wiki/Titanic_(1997_film)"
+			},
+			{"name":"Jurasic Park",
+				"img":"../assets/images/download (2).jpg",
+				"year":"1993",
+			"desc":"Located off the coast of Costa Rica, the Jurassic World luxury resort provides a habitat for an array of genetically engineered dinosaurs, including the vicious and intelligent Indominus rex. When the massive creature escapes, it sets off a chain reaction that causes the other dinos to run amok. Now… ",
+				"link":"https://en.wikipedia.org/wiki/Jurassic_Park_(film)"
+			
+			}]
+		}
