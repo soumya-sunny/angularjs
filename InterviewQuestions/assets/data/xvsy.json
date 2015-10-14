@@ -1,0 +1,44 @@
+{"data":[
+{"q":"Typeof vs instance of ",
+			"ans":[
+			{"d":"Use instanceof for custom types"
+		},{"d":"Use typeof for simple built in types"
+		},{"d":"Use instanceof for complex built in types"
+		}
+			]
+			},
+		{"q":"escape vs encodeURI() vs encodeURIComponent()",
+			"ans":[
+			{"d":"Escape - Don't use it, as it has been deprecated since ECMAScript v3."
+		},{"d":"encodeURI()Use encodeURI when you want a working URL. Make this call"
+		},{"d":"Use encodeURIComponent when you want to encode a URL parameter",
+		"explanation":"param1 = encodeURIComponent('http://xyz.com/?a=12&b=55')Then you may create the URL you need:url = 'http://domain.com/?param1='+ param1 + '&param2=99';"
+		}
+			]
+			},
+			{"q":"Event bubbling and capturing",
+			"ans":[
+			{"d":"With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements."
+		},{"d":"With capturing, the event is first captured by the outermost element and propagated to the inner elements."
+		},{"d":"Capturing is also called 'trickling', which helps remember the propagation order"
+		}
+			]
+			}],
+			"comments":[
+			{
+				"name":"avi",
+				"date":"14-10-2015",
+				"comment":"Thank you Sir some questions from this was in my interview questions and believe me i got my dream job in United Kingdom :)"
+			},
+			{
+				"name":"coder1",
+				"date":"14-07-2015",
+				"comment":"very nice article"
+			},
+			{
+				"name":"programmer2",
+				"date":"04-10-2015",
+				"comment":"vary nice"
+			}
+			]
+		}

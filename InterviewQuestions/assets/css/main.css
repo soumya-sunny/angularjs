@@ -1,0 +1,33 @@
+body{
+	font-family: sans-serif;
+}
+.left-align{
+	float:left;
+}
+.right-align{
+	float:right;
+}
+.center-align{
+	text-align: center;
+}
+
+.container{
+	margin: 50px;
+	background: whitesmoke;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+/* new  */
+.main{
+margin-top: 80px;
+}
+.explanation{
+	margin-right: 15px;
+}
+.questions,.comments{
+	    padding: 0 10px;
+}
+.media{
+	    margin: 10px;
+}

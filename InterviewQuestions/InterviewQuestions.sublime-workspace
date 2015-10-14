@@ -1,0 +1,260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html>\n<head>\n\n\n	<title>Bolt Network</title>\n	<script src=\"http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js\"></script>\n	<script src=\"http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js\"></script>\n	<script src=\"https://code.jquery.com/jquery-2.1.4.min.js\"></script>\n	<!-- <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script> -->\n	<!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"../assets/css/main.css\"> -->\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"../assets/css/bootstrap.min.css\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"../assets/css/bootstrap-theme.min.css\">\n	<!-- <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css\">\n	<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css\"> -->\n</head>\n<body ng-app=\"interviewQuestions\" ng-controller=\"mainController\">\n	<div class=\"container\" >\n		<div class=\"page-header\">\n			<h1>Interview Questions</h1>\n			<nav class=\"navbar navbar-default\">\n				<div class=\"container-fluid\">\n					<!-- Brand and toggle get grouped for better mobile display -->\n					<div class=\"navbar-header navbar-fixed-top\">\n						<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n							<span class=\"sr-only\">Toggle navigation</span>\n							<span class=\"icon-bar\"></span>\n							<span class=\"icon-bar\"></span>\n							<span class=\"icon-bar\"></span>\n						</button>\n\n					</div>\n\n					<!-- Collect the nav links, forms, and other content for toggling -->\n					<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n						<ul class=\"nav navbar-nav\">\n							<li class=\"active\"><a href=\"#\">Programs <span class=\"sr-only\">(current)</span></a></li>\n\n							<li><a href=\"#\">Reviews</a></span></a></li>\n							<li><a href=\"#\">Releases</a></span></a>								</li>\n						</ul>			\n					</div><!-- /.navbar-collapse -->\n				</div><!-- /.container-fluid -->\n			</nav>\n		</div>\n		</div>\n		</body>\n		\n		</html>",
+			"file": "view/index.html",
+			"file_size": 2155,
+			"file_write_time": 130892869550114694,
+			"settings":
+			{
+				"buffer_size": 2121,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/soumya.sunny/Documents/angularjs/InterviewQuestions",
+		"/C/Users/soumya.sunny/Documents/angularjs/InterviewQuestions/view"
+	],
+	"file_history":
+	[
+		"/C/Users/soumya.sunny/Documents/angularjs/BoltNetwork/app/controllers/MainController.js",
+		"/C/Users/soumya.sunny/Documents/angularjs/BoltNetwork/assets/data/filmlist.json",
+		"/C/Users/soumya.sunny/Documents/node/node_modules/npm/package.json",
+		"/C/Users/soumya.sunny/Downloads/Sublime Text Build 3083 x64/Data/Settings/SideBarEnhancements.json",
+		"/C/Users/soumya.sunny/Documents/angularjs/PizzaPlanet/views/index.html",
+		"/C/Users/soumya.sunny/Downloads/Sublime Text Build 3083 x64/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/soumya.sunny/Documents/angularjs/BoltNetwork/views/index.html",
+		"/C/Users/soumya.sunny/Downloads/Sublime Text Build 3083 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/soumya.sunny/Documents/node/npm/node_modules/npm/package.json",
+		"/C/Users/soumya.sunny/Documents/angularjs/PizzaPlanet/app/controllers/MainController.js",
+		"/C/Users/soumya.sunny/Documents/angularjs/BoltNetwork/app/app.js",
+		"/C/Users/soumya.sunny/Downloads/fiveteen_React.js-master/fiveteen_React.js-master/src/js/components/app.js",
+		"/C/Users/soumya.sunny/Downloads/fiveteen_React.js-master/fiveteen_React.js-master/src/js/main.js",
+		"/C/Users/soumya.sunny/Downloads/fiveteen_React.js-master/fiveteen_React.js-master/src/index.html",
+		"/C/Users/soumya.sunny/Downloads/fiveteen_React.js-master/fiveteen_React.js-master/public/bundle.js",
+		"/C/Users/soumya.sunny/Downloads/fiveteen_React.js-master/fiveteen_React.js-master/public/index.html",
+		"/C/Users/soumya.sunny/Documents/angularjs/BoltNetwork/views/SideBarEnhancements.json",
+		"/C/Users/soumya.sunny/Documents/angularjs/BoltNetwork/app/Services/CartService.js",
+		"/C/Users/soumya.sunny/Documents/angularjs/BoltNetwork/views/cart.html",
+		"/C/Users/soumya.sunny/Documents/angular/assets/data/menu.json",
+		"/C/Users/soumya.sunny/Documents/angular/views/SideBarEnhancements.json",
+		"/C/Users/soumya.sunny/Documents/angular/assets/css/main.css",
+		"/C/Users/soumya.sunny/Documents/angular/app/Services/CartService.js",
+		"/C/Users/soumya.sunny/Downloads/Sublime Text Build 3083 x64/Data/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/soumya.sunny/Downloads/Sublime Text Build 3083 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/C/Users/soumya.sunny/Documents/angular/app/app.js",
+		"/C/Users/soumya.sunny/Documents/angular/data/menu.json",
+		"/C/Users/soumya.sunny/Documents/angular/index.html",
+		"/C/Users/soumya.sunny/Documents/angular/course.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"start",
+			"\"$",
+			"{name:",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"{\"name\":",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "view/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1119,
+								1119
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "InterviewQuestions.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
