@@ -1,0 +1,26 @@
+body,html,.main{
+	color:black;
+	height: 100%;
+}
+.important{
+	color: #0000ff;
+}
+.left_panel{
+	width: 30%;
+	float: left;
+	background: #a6a6ea;height: 100%;
+	/*border: 2px solid black;*/
+}
+#wall{
+	float: right;
+	width: 69%;
+	background: #b6a6ea;height: 100%;
+	/*border: 2px solid black;*/
+}
+header{
+	height: 50px;
+	width: 100%;
+	background: wheat;
+	border: 2px solid black;
+
+}
