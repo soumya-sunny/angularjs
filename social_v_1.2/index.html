@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body ng-app="user" ng-controller="mainController">
+		<header>
+			<div class="img_container">
+				<img ng-src="{{profile_pic}}"/>
+			</div>
+			<button ng-click="openModal()"> What I am thinking </button>
+			<div ng-show="showSlider">
+				<input type="text" ng-model="message"/>
+				<button ng-click="postUpdate()">POST</button>
+			</div>
+			<button ng-click="openPicModal()">Add picture </button>
+			<div ng-show="showSliderPic">
+				<form name="myForm" >
+				<input type="text" name="url" ng-model="pic_url" placeholder="url" ng-required=true />
+				<input type="text"  name="caption" ng-model="pic_caption" placeholder="Caption" ng-required=true />
+				<label ng-if="!myForm.url.$valid || !myForm.caption.$valid ">The input field cannot be empty</label>
+				<button type="button" ng-click="insertPic()" ng-disabled="!myForm.url.$valid || !myForm.caption.$valid">INSERT</button>
+			</form>
+			</div>
+		</header>
+		<div class="main">
+			<div class="left_panel">
+				<ul>
+					<li><button><a href="#wall">Home</a></button></li>
+					<li><button ng-click="filterPosts('img')">Images</button></li>
+					<li><button ng-click="filterPosts('text')">Thoughts</button></li>
+					<li><button ng-click="filterPosts('important')">Important</button></li>
+				</ul>
+			</div>
+			<div id="wall">
+				<input type="text" placeholder="serach" ng-model="search_value" ng-change="search()"/>
+				<ul ng-repeat="post in posts">
+					<li>
+						<span ng-class="post.important?'important':''" ng-click="markImportant(post)">* </span>
+						<span ng-if="post.type=='text'">{{post.message}}</span>
+						<span ng-if="post.type=='img'">{{post.pic_caption}}</span>
+						<img ng-src="{{post.pic_url}}">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
